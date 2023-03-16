@@ -23,6 +23,9 @@ body {
   align-items: center;
   background: transparent;
 }
+.section0 header .logo {
+  font-size: 12px;
+}
 .section0 header nav .fa-xmark {
   display: none;
 }

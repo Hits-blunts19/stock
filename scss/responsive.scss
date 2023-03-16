@@ -1,6 +1,6 @@
-$main: #F04E3C;
+$main: #ff7300;
 $secondary: #121212;
-$tetiary: #0E0E0E;
+$tetiary: #ff7300;
 $dark: #000;
 $light: white;
 $transit: .3s ease-in-out;
@@ -14,6 +14,9 @@ $change: #ec341f;
         header{
             padding: 1rem;
             width: 100px;
+            .logo{
+                font-size: 12px;
+            }
             nav{
                 & .fa-xmark{
                     display: block;
@@ -23,10 +26,11 @@ $change: #ec341f;
                 }
                 & .fa-bars{
                     display: block;
-                    color: $main;
+                    color: $light;
                     font-size: 1.6rem;
                     position: absolute;
                     right: 2%;
+                    top: 3%;
                 }
                 ul{
                     height: 100vh;
@@ -150,6 +154,17 @@ $change: #ec341f;
                 width: 100%;
                 .mail{
                     width: 100%;
+                    .here{
+                        a{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .wrapper{
+                width: 100%;
+                h1{
+                    font-size: 20px;
                 }
             }
         }

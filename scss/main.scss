@@ -1,4 +1,4 @@
-$main: #F04E3C;
+$main: #ff7300;
 $secondary: #121212;
 $tetiary: #ff7300;
 $dark: #000;
@@ -30,6 +30,9 @@ body{
         padding: 1rem 6.5rem;
         align-items: center;
         background: transparent;
+        .logo{
+            font-size: 12px;
+        }
         nav{
             & .fa-xmark{
                 display: none;
