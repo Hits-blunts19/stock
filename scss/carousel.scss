@@ -1,0 +1,59 @@
+$main: #F04E3C;
+$secondary: #121212;
+$tetiary: #0E0E0E;
+$dark: #000;
+$light: white;
+$transit: .3s ease-in-out;
+$change: #ec341f;
+
+
+.responsive{
+    .slide{
+        text-align: center;
+        p{
+            color: $light;
+            font-size: 17px;
+            line-height: 1.5rem;
+            margin-bottom: 3rem;
+            letter-spacing: 0.03em;
+        }
+        h4{
+            color: $light;
+            margin-top: 3rem;
+            font-size: 16px;
+            font-weight: 550;
+            letter-spacing: 0.03em;
+        }
+        h6{
+            color: $light;
+            font-size: 13px;
+            letter-spacing: 0.03em;
+            margin-top: .5rem;
+        }
+    }
+    .slick-dots{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: center;
+        gap: .5rem;
+        margin-top: 1rem;
+        button{
+            padding: .2rem;
+            height: .2rem;
+            width: .2rem;
+            border: 1px solid transparent;
+            background: $secondary;
+            color: transparent;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+    }
+    .slick-dots li.slick-active button{
+        color: transparent;
+        background: $light;
+    }
+}

@@ -1,0 +1,165 @@
+$main: #F04E3C;
+$secondary: #121212;
+$tetiary: #0E0E0E;
+$dark: #000;
+$light: white;
+$transit: .3s ease-in-out;
+$change: #ec341f;
+
+
+
+@media (max-width: 900px){
+    .section0{
+        width: 100%;
+        header{
+            padding: 1rem;
+            width: 100px;
+            nav{
+                & .fa-xmark{
+                    display: block;
+                    color: $light;
+                    font-size: 1.6rem;
+                    text-align: right;
+                }
+                & .fa-bars{
+                    display: block;
+                    color: $main;
+                    font-size: 1.6rem;
+                    position: absolute;
+                    right: 2%;
+                }
+                ul{
+                    height: 100vh;
+                    width: 200px;
+                    background: $main;
+                    position: fixed;
+                    left: -300px;
+                    top: 0;
+                    transition: 1s ease-in-out;
+                    padding: 2rem 1rem;
+                    z-index: 4;
+                    li{
+                        display: block;
+                        margin-top: 1rem;
+                    }
+                }
+            }
+            button{
+                display: none;
+            }
+        }
+        .section1{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1rem;
+            width: 100%;
+            margin-top: 3rem;
+            .left{
+                padding: 1rem;
+                width: 74%;
+                h1{
+                    font-size: 2rem;
+                }
+            }
+            .right{
+                width: 100%;
+                padding: 0;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .title{
+        h4{
+            font-size: 15px;
+        }
+        h1{
+            font-size: 1.5rem;
+        }
+    }
+
+    .section2{
+        padding: 3rem 0rem;
+        width: 100%;
+        .sect2{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1rem;
+            .left{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .right{
+                width: 100%;
+                padding: .5rem;
+                margin-top: 2rem;
+                h4{
+                    font-size: 1.5rem;
+                }
+                .para{
+                    font-size: 14px;
+                }
+                .butt{
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+
+    .section3{
+        padding: 2rem 1rem;
+        .sect3{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    .section4{
+        padding: 3rem .5rem;
+        .sect4{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            .card2{
+                .box{
+                    width: 96vw;
+                    border: 1px solid $main;
+                }
+            }
+        }
+    }
+
+    .section5{
+        padding: 3rem 1rem;
+        .responsive{
+            img{
+                display: none;
+            }
+        }
+    }
+
+    .section6{
+        padding: 3rem 1rem;
+        .sect6{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            .left{
+                width: 100%;
+                .mail{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    footer{
+        padding: 3rem 1rem;
+        gap: 1rem;
+        p{
+            font-size: 13px;
+        }
+    }
+}

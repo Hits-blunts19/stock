@@ -1,0 +1,47 @@
+.responsive .slide {
+  text-align: center;
+}
+.responsive .slide p {
+  color: white;
+  font-size: 17px;
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
+  letter-spacing: 0.03em;
+}
+.responsive .slide h4 {
+  color: white;
+  margin-top: 3rem;
+  font-size: 16px;
+  font-weight: 550;
+  letter-spacing: 0.03em;
+}
+.responsive .slide h6 {
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  margin-top: 0.5rem;
+}
+.responsive .slick-dots {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.responsive .slick-dots button {
+  padding: 0.2rem;
+  height: 0.2rem;
+  width: 0.2rem;
+  border: 1px solid transparent;
+  background: #121212;
+  color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.responsive .slick-dots li.slick-active button {
+  color: transparent;
+  background: white;
+}/*# sourceMappingURL=carousel.css.map */

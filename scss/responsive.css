@@ -1,0 +1,140 @@
+@media (max-width: 900px) {
+  .section0 {
+    width: 100%;
+  }
+  .section0 header {
+    padding: 1rem;
+    width: 100px;
+  }
+  .section0 header nav .fa-xmark {
+    display: block;
+    color: white;
+    font-size: 1.6rem;
+    text-align: right;
+  }
+  .section0 header nav .fa-bars {
+    display: block;
+    color: #F04E3C;
+    font-size: 1.6rem;
+    position: absolute;
+    right: 2%;
+  }
+  .section0 header nav ul {
+    height: 100vh;
+    width: 200px;
+    background: #F04E3C;
+    position: fixed;
+    left: -300px;
+    top: 0;
+    transition: 1s ease-in-out;
+    padding: 2rem 1rem;
+    z-index: 4;
+  }
+  .section0 header nav ul li {
+    display: block;
+    margin-top: 1rem;
+  }
+  .section0 header button {
+    display: none;
+  }
+  .section0 .section1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .section0 .section1 .left {
+    padding: 1rem;
+    width: 74%;
+  }
+  .section0 .section1 .left h1 {
+    font-size: 2rem;
+  }
+  .section0 .section1 .right {
+    width: 100%;
+    padding: 0;
+  }
+  .section0 .section1 .right img {
+    width: 100%;
+  }
+  .title h4 {
+    font-size: 15px;
+  }
+  .title h1 {
+    font-size: 1.5rem;
+  }
+  .section2 {
+    padding: 3rem 0rem;
+    width: 100%;
+  }
+  .section2 .sect2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+  .section2 .sect2 .left {
+    width: 100%;
+  }
+  .section2 .sect2 .left img {
+    width: 100%;
+  }
+  .section2 .sect2 .right {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 2rem;
+  }
+  .section2 .sect2 .right h4 {
+    font-size: 1.5rem;
+  }
+  .section2 .sect2 .right .para {
+    font-size: 14px;
+  }
+  .section2 .sect2 .right .butt {
+    gap: 1rem;
+  }
+  .section3 {
+    padding: 2rem 1rem;
+  }
+  .section3 .sect3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section4 {
+    padding: 3rem 0.5rem;
+  }
+  .section4 .sect4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section4 .sect4 .card2 .box {
+    width: 96vw;
+    border: 1px solid #F04E3C;
+  }
+  .section5 {
+    padding: 3rem 1rem;
+  }
+  .section5 .responsive img {
+    display: none;
+  }
+  .section6 {
+    padding: 3rem 1rem;
+  }
+  .section6 .sect6 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section6 .sect6 .left {
+    width: 100%;
+  }
+  .section6 .sect6 .left .mail {
+    width: 100%;
+  }
+  footer {
+    padding: 3rem 1rem;
+    gap: 1rem;
+  }
+  footer p {
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
