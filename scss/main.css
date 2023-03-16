@@ -70,6 +70,16 @@ body {
   font-size: 4.5rem;
   font-weight: 400;
 }
+.section0 .section1 .left button {
+  color: #ff7300;
+  height: 3rem;
+  padding: 0rem 1.5rem;
+  border: 1px solid #ff7300;
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
 .section0 .section1 .right {
   width: 40%;
   padding-top: 100px;

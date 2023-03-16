@@ -78,6 +78,16 @@ body{
                 font-size: 4.5rem;
                 font-weight: 400;
             }
+            button{
+                color: $tetiary;
+                height: 3rem;
+                padding: 0rem 1.5rem;
+                border: 1px solid $tetiary;
+                margin-top: 1rem;
+                font-size: 18px;
+                font-weight: 600;
+                cursor: pointer;
+            }
         }
         .right{
             width: 40%;
